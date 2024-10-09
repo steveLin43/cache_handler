@@ -12,3 +12,6 @@ pkg: allegro/bigcache-bench
 ```
 go get -u golang.org/x/perf/cmd/benchstat
 ```
+
+### 高性能快取函數庫 BigCache
+最佳化技巧: 分片思維、 key 轉為 uint64 模式
